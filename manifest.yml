@@ -133,6 +133,12 @@ dependencies:
   sha256: 03e6327065f73e312cd485d7ddcf172d676999c493af70eb2ec9f2ff9d4d9266
   cf_stacks:
   - cflinuxfs2
+- name: ca-apm-agent
+  version: 1.0.2
+  uri: https://pypi.python.org/packages/92/50/2b3fe64403a2c2fa1916d11a5d5a076f0ea8412492245e23b1aa372eb6aa/ca-apm-agent-1.0.2.tar.gz
+  sha256: 6f966272964bccce88f7ffb5ea47962046aaac0ea136abe9a28aaa926697d3ff
+  cf_stacks:
+  - cflinuxfs2
 include_files:
 - CHANGELOG
 - CONTRIBUTING.md
